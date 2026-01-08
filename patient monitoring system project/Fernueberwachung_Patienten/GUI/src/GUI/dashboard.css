@@ -1,0 +1,171 @@
+/* dashboard.css */
+
+/* Base styles */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-smoothing-type: gray;
+    -fx-background-color: #f5f7fa;
+}
+
+/* Top menu styling */
+.top-menu {
+    -fx-background-color: #fafafa;
+    -fx-border-color: #ddd;
+    -fx-border-width: 0 0 1px 0;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+}
+
+/* Sidebar styling */
+.sidebar {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #eee;
+    -fx-border-width: 0 1px 0 0;
+    -fx-padding: 15;
+    -fx-spacing: 15;
+}
+
+/* List container */
+.list-container {
+    -fx-pref-height: 400px;
+}
+
+/* List views */
+.list-view {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #ddd;
+    -fx-background-insets: 0;
+    -fx-padding: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 0);
+}
+
+.list-cell {
+    -fx-padding: 8 10;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5;
+}
+
+.list-cell:hover {
+    -fx-background-color: #f2f7fc;
+}
+
+.list-cell:selected {
+    -fx-background-color: #b7d1ec;
+}
+
+/* Patient name styling */
+.patient-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #333;
+}
+
+/* Status dot */
+.status-dot {
+    -fx-font-size: 24px;
+    -fx-padding: 0 5 0 0;
+}
+
+/* Alert label */
+.alert-label {
+    -fx-background-color: #fdd;
+    -fx-text-fill: #b00;
+    -fx-padding: 6 10;
+    -fx-border-color: #b00;
+    -fx-border-radius: 5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 10;
+    -fx-padding: 8 16;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #d0d0d0;
+}
+
+/* Toggle buttons */
+.toggle-button {
+    -fx-background-color: #e8e8e8;
+    -fx-text-fill: #555;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 6 12;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #4a9fe3;
+    -fx-text-fill: white;
+}
+
+/* Search fields */
+.search-field {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #ddd;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+/* Detail pane */
+.detail-pane {
+    -fx-background-color: #fff;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.1, 0, 2);
+    -fx-background-radius: 10;
+    -fx-spacing: 15;
+}
+
+.list-container {
+    -fx-pref-height: 400px;
+}
+
+.search-field {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #ddd;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.toggle-button {
+    -fx-background-color: #e8e8e8;
+    -fx-text-fill: #555;
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-background-radius: 8;
+    -fx-padding: 6 12;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #4a9fe3;
+    -fx-text-fill: white;
+}
+
+.status-dot {
+    -fx-font-size: 24px;
+    -fx-padding: 0 5 0 0;
+}
+
+.room-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 8px;
+}
+
+.room-name:hover {
+    -fx-background-color: #f0f7ff;
+    -fx-cursor: hand;
+}
