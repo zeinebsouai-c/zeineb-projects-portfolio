@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="20" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="domainLogic.domainLogic.AudioDTO">
+    <void property="duration">
+     <int>300</int>
+    </void>
+    <void property="samplingRate">
+     <int>44100</int>
+    </void>
+    <void property="title">
+     <string>defaultAudio1</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="domainLogic.domainLogic.AudioDTO">
+    <void property="duration">
+     <int>180</int>
+    </void>
+    <void property="samplingRate">
+     <int>48000</int>
+    </void>
+    <void property="title">
+     <string>defaultAudio2</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="domainLogic.domainLogic.AudioDTO">
+    <void property="duration">
+     <int>345</int>
+    </void>
+    <void property="samplingRate">
+     <int>32</int>
+    </void>
+    <void property="title">
+     <string>tor</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

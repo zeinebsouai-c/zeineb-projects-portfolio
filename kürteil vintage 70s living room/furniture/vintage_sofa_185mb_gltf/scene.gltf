@@ -1,0 +1,403 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2589,
+      "max": [
+        9.992831230163574,
+        8.982779502868652,
+        8.679957389831543
+      ],
+      "min": [
+        -9.996792793273926,
+        -1.398339867591858,
+        -0.04369707778096199
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 31068,
+      "componentType": 5126,
+      "count": 2589,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2589,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2589,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 20712,
+      "componentType": 5126,
+      "count": 2589,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 41424,
+      "componentType": 5126,
+      "count": 2589,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 11280,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 62136,
+      "componentType": 5126,
+      "count": 1810,
+      "max": [
+        0.7293204069137573,
+        0.6123441457748413,
+        -0.14890623092651367
+      ],
+      "min": [
+        -0.7223019599914551,
+        -0.7306747436523438,
+        -1.0943020582199097
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 83856,
+      "componentType": 5126,
+      "count": 1810,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 41424,
+      "componentType": 5126,
+      "count": 1810,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 62136,
+      "componentType": 5126,
+      "count": 1810,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 76616,
+      "componentType": 5126,
+      "count": 1810,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 91096,
+      "componentType": 5126,
+      "count": 1810,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 45120,
+      "componentType": 5125,
+      "count": 10347,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "fab-model-conversion",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 86508,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 105576,
+      "byteOffset": 86508,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 105576,
+      "byteOffset": 192084,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 70384,
+      "byteOffset": 297660,
+      "byteStride": 16,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 368044,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Sofa_baseColor.png"
+    },
+    {
+      "uri": "textures/Sofa_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Sofa_normal.png"
+    },
+    {
+      "uri": "textures/Blanket_baseColor.png"
+    },
+    {
+      "uri": "textures/Blanket_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Blanket_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Sofa",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Blanket",
+      "normalTexture": {
+        "index": 5
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 4
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sofa_Sofa_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5
+          },
+          "indices": 6,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Retopo_Plane.002_Blanket_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TANGENT": 9,
+            "TEXCOORD_0": 10,
+            "TEXCOORD_1": 11,
+            "TEXCOORD_2": 12
+          },
+          "indices": 13,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "70382b2b600a492ba047c3174af8c54d.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -2.8212996916465727e-05,
+        -99.99999999999602,
+        0.0,
+        0.0,
+        99.99999999999602,
+        -2.8212996916465727e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sofa"
+    },
+    {
+      "mesh": 0,
+      "name": "Sofa_Sofa_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        930.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.00026238087132313126,
+        -929.999999999963,
+        0.0,
+        0.0,
+        929.999999999963,
+        -0.00026238087132313126,
+        0.0,
+        400.0,
+        1007.46240234375,
+        -400.0,
+        1.0
+      ],
+      "name": "Retopo_Plane.002"
+    },
+    {
+      "mesh": 1,
+      "name": "Retopo_Plane.002_Blanket_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}

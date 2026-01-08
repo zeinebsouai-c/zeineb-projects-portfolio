@@ -1,0 +1,301 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 527567,
+      "max": [
+        16.12113380432129,
+        158.54071044921875,
+        16.195241928100586
+      ],
+      "min": [
+        -16.1287899017334,
+        -0.3875865340232849,
+        -16.178752899169922
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6330804,
+      "componentType": 5126,
+      "count": 527567,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 527567,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 527567,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3000000,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12661608,
+      "componentType": 5126,
+      "count": 526728,
+      "max": [
+        26.92952537536621,
+        163.42950439453125,
+        29.029497146606445
+      ],
+      "min": [
+        -30.98455238342285,
+        111.85220336914063,
+        -27.625391006469727
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18982344,
+      "componentType": 5126,
+      "count": 526728,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8441072,
+      "componentType": 5126,
+      "count": 526728,
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4220536,
+      "componentType": 5126,
+      "count": 526728,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12000000,
+      "componentType": 5125,
+      "count": 3000000,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "fab-model-conversion",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 24000000,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8434360,
+      "byteOffset": 24000000,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25303080,
+      "byteOffset": 32434360,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16868720,
+      "byteOffset": 57737440,
+      "byteStride": 16,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 74606160,
+      "uri": "Wooden_Floor_Lamp_vi5hbjgga_Raw.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Wooden_Floor_Lamp_vi5hbjgga_Raw_8K_albedo.jpeg"
+    },
+    {
+      "uri": "textures/Wooden_Floor_Lamp_vi5hbjgga_Raw_8K_orm.jpeg"
+    },
+    {
+      "uri": "textures/Wooden_Floor_Lamp_vi5hbjgga_Raw_8K_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Wooden_Floor_Lamp_vi5hbjgga_Raw",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "vi5hbjgga_LOD0_TIER0_000_MatID_1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "vi5hbjgga_LOD0_TIER0_001_MatID_1_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Wooden_Floor_Lamp_vi5hbjgga_Raw.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "vi5hbjgga_LOD0_TIER0_000"
+    },
+    {
+      "mesh": 0,
+      "name": "vi5hbjgga_LOD0_TIER0_000_MatID_1_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "name": "vi5hbjgga_LOD0_TIER0_001"
+    },
+    {
+      "mesh": 1,
+      "name": "vi5hbjgga_LOD0_TIER0_001_MatID_1_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
